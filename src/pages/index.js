@@ -11,15 +11,14 @@ export default function Home() {
   return (
     <React.Fragment>
       <Container className=''>
-        <Carousel_/>
         {/* Section */}
-        <section class="jumbotron text-center mt-5">
-        <div class="container">
-          <h1 class="jumbotron-heading">Welcome To Movie Box</h1>
+        <Carousel_/>
+        <section class="jumbotron text-center mt-5" style={{width:"100%", height:"500px"}}> <div class="container">
+          <h1 class="jumbotron-heading" style={{fontSize:"50px"}}>Welcome To Products</h1>
           <p class="lead text-muted">Something short and leading about the collection below—its contents, the creator, etc. Make it short and sweet, but not too short so folks don't simply skip over it entirely.</p>
           <p>
             <a href="/about" class="btn btn-dark my-2 mx-2">About us</a>
-            <a href="/movie" class="btn btn-light my-2 mx-2">View movies</a>
+            <a href="/products" class="btn btn-light my-2 mx-2">View all Products</a>
           </p>
         </div>
       </section>

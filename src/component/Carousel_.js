@@ -6,7 +6,7 @@ function Carousel_() {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="https://www.gatewayplayhouse.com/content/Images/ShowPages/2021/DriveIn/Avengers_Slide.jpg"
+          src="https://sarahjulianne.com/images/1000x400/4-1000x400-sarahjulianne.com.jpg"
           alt="First slide"
         />
         <Carousel.Caption>
@@ -17,7 +17,7 @@ function Carousel_() {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="https://render.fineartamerica.com/images/images-profile-flow/400/images/artworkimages/mediumlarge/2/marvel-avengers-first-10-years-igor-avdeev.jpg"
+          src="https://sites.create-cdn.net/siteimages/34/8/3/348386/19/5/6/19566271/1000x400.gif?1631797782"
           alt="Second slide"
         />
 
@@ -29,7 +29,7 @@ function Carousel_() {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="https://images.squarespace-cdn.com/content/v1/5a893e67e9bfdf3698c203ef/1528765410006-T8O4RFQZ0IARCQ8QOJBL/avengersageofultron_header.jpg"
+          src="https://img.kelbymediagroup.com/planetphotoshop/uploads/2015/07/flood-demo.jpg"
           alt="Third slide"
         />
         <Carousel.Caption>
