@@ -21,7 +21,7 @@ export default function Card_({title, description, image, id,overview}) {
       <Card style={{ width: '18rem'}} className='shadow'>
       <Card.Img variant="top" src={image ? 
       image : "https://media.istockphoto.com/id/1147544807/vector/thumbnail-image-vector-graphic.jpg?s=612x612&w=0&k=20&c=rnCKVbdxqkjlcs3xH87-9gocETqpspHFXu5dIGB4wuM="} 
-      style={{ height:"250px", objectFit:"cover"}}/>
+      style={{ height:"260px", width:"200px", cursor:'pointer' }} className='mx-5 mt-5 mb-5 shadow rounded-0' onClick={handlerClick}/>
       <Card.Body>
         <Card.Title style={
           {
