@@ -13,7 +13,7 @@ export default function Movie() {
       fetch(`${BASE_URL}movie/${route.query.id}/videos?api_key=${API_KEY}`)
       .then(e=>e.json()).then(e=>{
         setMovie(e);
-        setKey(e.results[0].key)
+        setKey(e.results[e.results.length-1].key)
       }).catch(err=>{
         console.log("Error: " + err)
       })
