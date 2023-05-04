@@ -14,6 +14,8 @@ export default function Movie() {
       .then(e=>e.json()).then(e=>{
         setMovie(e);
         setKey(e.results[0].key)
+      }).catch(err=>{
+        console.log("Error: " + err)
       })
     },[])
   return (
