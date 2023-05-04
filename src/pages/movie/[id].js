@@ -41,8 +41,8 @@ export default function Movie() {
       <Card.Header style={{border:"none"}}>Movie Detail</Card.Header>
       <Card.Img variant="top" alt='thumbnail'
       src={route.query.image} 
-      style={{height:"500px",objectFit:"cover"}}
-      className='rounded-0'
+      style={{height:"450px", width:"300px", marginLeft:"32px"}} 
+      className='rounded mt-4 mb-4   shadow' 
       />
       <Card.Body>
         <Card.Title style={{textDecoration:"underline"}}>{route.query.title? route.query.title:"Unknown"}</Card.Title>
